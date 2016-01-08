@@ -36,9 +36,18 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    background-color: #000;
 }
 .siteBG {
     background: url(../img/pcover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.siteBG2 {
+    background: url(../img/pcoverw.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
