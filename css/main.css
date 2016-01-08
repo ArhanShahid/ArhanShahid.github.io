@@ -1,0 +1,259 @@
+/*=====================*/
+/*          CSS        */
+/*=====================*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'akashi';
+    src: url('../fonts/akashi.ttf');
+}
+
+.fontAkashi{
+    font-family: 'akashi', 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+    overflow-x:scroll;
+}
+
+.cover {
+    background: url(../img/myCover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.siteBG {
+    background: url(../img/pcover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.my-btn {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px 5px;
+    display: block;
+    font-weight: 200;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #ffffff;
+}
+a.my-btn{
+    color: #ffffff;
+    text-decoration: none;
+    font-family:  'Raleway', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.my-btn:hover {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #fff;
+}
+.coverTitle{
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pageTitle{
+    font-family: 'akashi','Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.goUp{
+    text-align: center;
+    font-size: 1.3em;
+}
+.goUp a{
+    padding:15px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+.goUp a:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+.goDown{
+    text-align: right;
+    font-size: 1.3em;
+}
+.goDown a{
+    padding:15px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+}
+.goDown a:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.2);
+    color: #333;
+}
+
+.topAlign{
+    position: absolute;
+    right: 15px;
+    top: 60px;
+}
+
+.goClose{
+
+    text-align: right;
+    font-size: 1.3em;
+}
+.goClose a{
+    padding:15px 17px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+}
+.goClose a:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.2);
+    color: #333;
+}
+
+
+.aboutSlide{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: scroll;
+    color: #fff;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.footer{
+    background-color: #333;
+
+}
+.contactIconAlign{
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.copyright{
+    background-color: #1E1E1F;
+    height: 50px;
+    margin-top: 50px;
+}
+.copyright p{
+    padding-top: 15px;
+}
+
+.portfolio{
+    height: 500px;
+    overflow: scroll;
+}
+.portfolioItems{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.projectTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'akashi', 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.projectSlides{
+    margin: 50px;
+}
+.singleSlide{
+   padding: 10px 90px 60px 90px;
+}
+
+
+.profile-img-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.profile-img-container:hover {
+
+}
+
+.profile-img-container img:hover {
+    opacity: 0.1;
+}
+
+.profile-img-container:hover a {
+    opacity: 1;
+    top: 0;
+    z-index: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255,255,255,.95);
+
+}
+
+.profile-img-container:hover a span {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.profile-img-container a {
+    display: block;
+    position: absolute;
+    top: -100%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: inherit;
+}
+
+
+
+
+
